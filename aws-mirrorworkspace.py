@@ -35,8 +35,8 @@ print(dict)
 
 
 def mail(text):
-    sender = 'IOAWS_Tools@awsinfraprod.news.co.uk'
-    receivers = ['shivangi.singhjaiswal@news.co.uk','cloudoperations@news.co.uk']
+    sender = 'mail id'
+    receivers = ['mail id reciver']
     now = time.strftime("%c")
     msg = MIMEMultipart()
     msg['Subject'] = 'AWS NewsUK Workspace creation in account ' + dict[4] + ' %s' %now
